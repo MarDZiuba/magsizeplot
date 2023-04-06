@@ -2,7 +2,7 @@
 """
 Created on Thu Dec 15 13:49:22 2022
 
-@author: Марина
+@author: Marina Dziuba
 """
 # Import the required packages
 import argparse
