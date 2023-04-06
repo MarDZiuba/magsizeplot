@@ -2,11 +2,6 @@
 ## Automate Concatenation and Visualization of Magnetosome Measurements
 This script is designed to automate the routine of concatenating magnetosome measurements from multiple cells and produce a ready-for-publication plot. The script takes as input a directory where Excel files with magnetosome measurements produced using imageJ (Fiji) are stored and generates a figure in either a violin or boxplot format. It also calculates statistical significance of the difference in magnetosome sizes between strain pairs if requested.
 
-# Installation
-The script is bundled with all its dependencies in an .exe application, which can be downloaded and run on Windows without the need to install any additional packages. Simply copy the .exe file in one of your local directories and run it. If you have python installed on your machine and know how to run .py scripts, you can use the source code magsizeplot.py (it will also compute faster).
-
-Note that the script is designed to work with input excel tables produced using ImageJ (Fiji), so you'll need to make sure your data is in the correct format before using the script.
-
 # Usage
 This script accepts five arguments:
 
